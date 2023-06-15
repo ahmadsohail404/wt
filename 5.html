@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validateUSN() {
+        const usnInput = document.getElementById("usn")
+        const usn = usnInput.value.trim()
+        const pattern = /^[1-4][A-Z]{2}\d{2}[A-Z]{2}\d{3}/
+        //  /^[1-4][A-Z]{2}\d{2}[A-Z]{2}\d{3}
+            if(!pattern.test(usn)){
+                alert("Invalid USN")
+                return false
+            }
+            alert("Valid USN");
+            return true
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validateUSN()">
+    <label for="usn">Enter the USN: </label>
+    <input type="text" name="usn" id="usn"/>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+

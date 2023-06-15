@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        3
+        1*1 = 1
+        2*2 = 4
+        3*3 = 9 
+     -->
+    <script>
+        const n = parseInt(prompt("Enter the number: "))
+        function tab(n) {
+        let table = ""
+        for(let i=1;i<=n;i++){
+            let square = i*i
+            table = table + `${i} * ${i} = ${square} \n`
+        }
+        alert(table)
+    }
+    tab(n)
+    
+    </script>
+</head>
+<body>
+</body>
+</html>

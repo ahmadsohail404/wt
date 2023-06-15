@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students>
+<?xml-stylesheet type="text/xsl" href="7.xslt"?>
+<students>
+  <student>
+    <usn>001</usn>
+    <name>John Doe</name>
+    <college>ABC Engineering College</college>
+    <branch>Computer Science</branch>
+    <year>2021</year>
+    <email>john.doe@example.com</email>
+  </student>
+</students>

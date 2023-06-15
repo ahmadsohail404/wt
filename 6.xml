@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students>
+<?xml-stylesheet type="text/css" href="students.css"?>
+<students>
+  <student>
+    <name>Sohail Ahmad</name>
+    <usn>4NI20IS108</usn>
+    <email>sohailss2412@gmail.com</email>
+  </student>
+  <student>
+    <name>Manjeet Kumar</name>
+    <usn>4NI20IS060</usn>
+    <email>manjeetkumar@gmail.com</email>
+  </student>
+  <student>
+    <name>Manjeet Kumar</name>
+    <usn>4NI20IS060</usn>
+    <email>manjeetkumar@gmail.com</email>
+  </student>
+</students>

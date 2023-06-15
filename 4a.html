@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        sohail
+     -->
+   <script>
+    const str = prompt("Enter the string: ")
+    function vowel(str) {
+    let vowels = "aeiouAEIOU"
+    let position = ""
+    for(let i=0; i<str.length; i++){
+        if(vowels.includes(str[i])){
+            position = i
+            break;
+        }
+    }
+    alert("The leftmost position is: " + position)
+}
+vowel(str)
+
+   </script>
+</head>
+<body>
+    
+</body>
+</html>
